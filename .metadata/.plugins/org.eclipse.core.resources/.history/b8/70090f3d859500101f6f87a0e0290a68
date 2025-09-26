@@ -1,0 +1,64 @@
+package PrimeiroProjeto;
+
+import java.util.Scanner;
+
+public class lista14 {
+
+	public static void main(String[] args) {
+
+
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		//1 - Contador:
+		for(int cont = 0; cont <= 10; cont++) {
+			System.out.println(cont);
+		}
+		
+		System.out.println("-------");
+		
+		//2 - Somando números de 1 a 100:
+		
+		
+		
+		
+		System.out.println("-------");
+		
+		//3 - Imprimir números pares de 1 a 20:
+		
+		
+		
+		System.out.println("-------");
+		
+		//4 - Imprimir a tabuada de um número:
+		
+		
+		
+		System.out.println("-------");
+		
+		//5 - Contar números divisíveis por 3:
+		
+		
+		System.out.println("-------");
+		
+		//6 - Imprimir números ímpares de 1 a N:
+		
+		
+		System.out.println("-------");
+		
+		//7 - Multiplicação de valores:
+		
+		System.out.println("-------");
+		
+		//8 - Premiação da empresa:
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

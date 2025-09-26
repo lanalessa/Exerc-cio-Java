@@ -1,0 +1,62 @@
+package PrimeiroProjeto;
+
+import java.util.Scanner;
+
+public class DoWhile2 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
+		
+		
+		int contador = 1;
+		do {
+			System.out.println(contador);
+			contador++; //+1
+		} while (contador<= 5 );
+		
+		System.out.println("-------");
+		
+		int idade;
+		int volta = 1 ;
+		
+		do {
+			System.out.println("Qual sua idade? ");
+			idade = scanner.nextInt();
+					if (idade >= 18) {
+						System.out.println("");
+					} else {
+						System.out.println("");
+					} 
+			volta++;//+1
+		} while (volta <= 3);
+		
+		System.out.println("-------------------");
+		
+		
+		int senha;
+		do {
+			System.out.println("Qual a senha?");
+			senha= scanner.nextInt();
+			} while(senha != 1234);
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

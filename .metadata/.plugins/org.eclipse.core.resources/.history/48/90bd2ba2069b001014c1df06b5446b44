@@ -1,0 +1,116 @@
+package PrimeiroProjeto;
+
+import java.util.Scanner;
+
+public class For {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		//Mostrando os números até 10
+		for(int cont = 0; cont <= 10; cont++) {
+			System.out.println(cont);
+		}
+		
+		System.out.println("-------");
+		
+		//Mostrando uma mensagem
+			System.out.println("Quantas vezes você quer ver a mensagem? ");
+			int escolha = scanner.nextInt();
+				for(int texto = 1; texto <= escolha; texto++) {
+					System.out.println("Hoje é quinta");
+				}
+
+				System.out.println("-------");
+				
+		/*Peça cinco salários para o usuário, se o salário for menor ou igual  
+		 * a 1500, mostre "Você terá aumento", senão, mostre "sem aumento"*/
+				
+				for(int voltas = 0; voltas <= 10; voltas++) {
+					System.out.println("Qual o salário? ");
+					double salario = scanner.nextDouble();
+					if (salario <= 1500) {
+						System.out.println("Você terá um aumento");
+					} else {
+						System.out.println("Sem aumento");
+					}
+				}
+				
+				System.out.println("-------");
+				
+		/* O usuario irá informar um valor 5 vezes, some os valores digitados por ele 
+		 * e mostre o resultado no final*/
+				
+				int soma = 0;
+				for(int vez = 1; vez <= escolha; vez++) {
+					System.out.println("Informe um valor");
+					int valor = scanner.nextInt();
+					soma = soma + valor; //soma += valor
+				}
+				System.out.println("O resultado da soma é: " + soma);
+				
+				
+				
+				//FOR 02
+				
+				for (int cont = 1; cont <= 10; cont++) {
+					System.out.println(cont);
+				}
+				
+				System.out.println("-------");
+				
+				System.out.println("Até que número você quer que eu conte? ");
+				int numero = scanner.nextInt();
+				for (int vez = 1; vez <= numero; vez++) {
+					System.out.println(vez);
+				}
+				
+				System.out.println("-------");
+				
+				//Classificação de numeros pares
+				
+				for (int i = 1; i <= 5; i++) {
+					System.out.println("Escolha um número: ");
+					int num = scanner.nextInt();
+					int div = num %2;
+					if (div == 0) {
+						System.out.println("O número é par ");
+					}else {
+						System.out.println("O número é impar ");
+					}
+				}
+				
+				System.out.println("-------");
+				
+				int soma1 = 0;
+				for (int i = 1; i <= 3; i++) {
+					System.out.println("Informe um valor: ");
+					int valor = scanner.nextInt();
+					soma1 = soma1 + valor;
+					System.out.println("A soma é: " + soma1);
+				}
+				
+				
+				
+		
+		
+				for(int anos = 0; anos <= 10; anos++) {
+					System.out.println("Quantos anos você trabalha na empresa? ");
+					double anos = scanner.nextDouble();
+					if (anos >= 10) {
+						System.out.println("Parabéns! Você irá receber um prêmio");
+					} else {
+						System.out.println("Quase lá");
+					}
+				}
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

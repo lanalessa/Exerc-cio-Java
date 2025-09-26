@@ -1,0 +1,21 @@
+package PrimeiroProjeto;
+
+import java.util.Scanner;
+
+public class Listaa13 {
+
+	public static void main(String[] args) {
+
+
+		Scanner scanner = new Scanner(System.in);
+		
+		for(int cont = 10; cont <= 30; cont++) {
+			System.out.println(cont);
+		}
+		
+		System.out.println("-------");
+
+
+	}
+
+}

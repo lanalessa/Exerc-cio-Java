@@ -1,0 +1,89 @@
+package PrimeiroProjeto;
+
+import java.util.Scanner;
+
+public class lista16 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
+		
+		//1 - Criando um vetor de cores
+		String[] frutas = new String[6];
+		for(int i= 0; i < 6; i++) {
+			System.out.println("Digite a cor:");
+			System.out.print("Cores["+i+"]: ");
+			frutas[i] = sc.next();
+		}
+			for(int i= 0; i < 6; i++) { 
+				System.out.println(frutas[i]);
+				
+			}
+		System.out.println("--------------------------");
+		//2 - Vetor de números decimais
+			
+		
+		
+		//3 - Mostrando apenas os pares
+			int n;
+			System.out.println("Digite um número:");
+			n = scanner.nextInt();
+			for(int i = 0; i <= n; i+= 2) {
+				System.out.println(i);
+				}
+		
+		
+		//4 - Menores que 50
+		
+		
+		//5 - Procurando um nome no vetor
+			String[] nomes = new String[5];
+			 for (int i = 0; i < 5; i++) {
+		            System.out.print("Digite o nome " + (i + 1) + ": ");
+		            nomes[i] = sc.next();
+		        }
+			 
+			 
+			 System.out.print("Digite um nome para procurar: ");
+		        String procurar = sc.nextLine();
+		        boolean achou = false;
+		        for (int i = 0; i < 5; i++) {
+		            if (nomes[i].equalsIgnoreCase(procurar)) {
+		            	achou = true;
+		                break;
+		            }
+		        }
+		
+		//6 - Produto e preço
+		
+		
+		//7 - Verificação de notas
+		        int[] num = new int[10];
+				for(int i= 0; i < 10; i++) {
+					System.out.println("Digite os números:");
+					System.out.print("Número["+i+"]: ");
+					num[i] = sc.nextInt();
+					System.out.println("_______");
+				}
+					for(int i= 0; i < 10; i++) { 
+						System.out.println(num[i]);
+						
+					}
+		
+		//8 - Promoção de ingressos
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,37 @@
+package PrimeiroProjeto;
+
+import java.util.Scanner;
+
+public class Array {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		int [] idade = new int [5]; //vetor inteiro de 5 posições
+		idade [0] = 18;
+		idade [1] = 27;
+		idade [2] = 13;
+		idade [3] = 50;
+		idade [4] = 40;
+		System.out.println(iade [3]);
+		
+		System.out.println("-------");
+		
+		String nomes = new String [4];
+		for(int i = 0; i < 4; i++) {
+			System.out.println("Nomes ["+i+"]: ");
+			nomes [i] = scanner.next();
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

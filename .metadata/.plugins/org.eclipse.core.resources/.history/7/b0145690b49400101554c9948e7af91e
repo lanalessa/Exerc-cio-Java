@@ -1,0 +1,78 @@
+package PrimeiroProjeto;
+
+import java.util.Scanner;
+
+public class DoWhile2 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
+		
+		
+		int contador = 1;
+		do {
+			System.out.println(contador);
+			contador++; //+1
+		} while (contador<= 5 );
+		
+		System.out.println("-------");
+		
+		int idade;
+		int volta = 1 ;
+		
+		do {
+			System.out.println("Qual sua idade? ");
+			idade = scanner.nextInt();
+					if (idade >= 18) {
+						System.out.println("");
+					} else {
+						System.out.println("");
+					} 
+			volta++;//+1
+		} while (volta <= 3);
+		
+		System.out.println("-------------------");
+		
+		
+		int senha;
+		do {
+			System.out.println("Qual a senha?");
+			senha= scanner.nextInt();
+			} while(senha != 1234);
+		System.out.println("Acertou a senha!");
+		
+		System.out.println("-------------------");
+		
+		int dias = 1; 
+		int totalPassos = 0;
+		
+		do {
+			System.out.println("Quantos passos você caminhou hj? ");
+			int passos = scanner.nextInt();
+					totalPassos = totalPassos + passos; 
+			dias++;//+1
+		} while (dias <= 3);
+		System.out.println("Você caminhou " + totalPassos);
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

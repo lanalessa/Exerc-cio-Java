@@ -1,0 +1,75 @@
+package PrimeiroProjeto;
+
+import java.util.Scanner;
+
+public class Listaa13 {
+
+	public static void main(String[] args) {
+
+
+		Scanner scanner = new Scanner(System.in);
+		
+		//1 - Contador:
+		for(int cont = 10; cont <= 30; cont++) {
+			System.out.println(cont);
+		}
+		
+		System.out.println("-------");
+		
+		//2 - Classificação de Idades:
+		int idade;
+		for(int cont = 1; cont <= 10; cont++) {
+			System.out.println("Informe sua idade: ");
+			idade = scanner.nextInt();
+			
+			if (idade < 18) {
+				System.out.println("Menor de idade");
+			} else {
+				System.out.println("Maior de idade");
+			} 
+		}
+
+		//3 - Eleição:
+		int eleicao;
+		for(int cont1 = 1; cont1 <= 5; cont1++) {
+			System.out.println("Informe seu voto: ");
+			eleicao = scanner.nextInt();
+			
+			if (eleicao == 1 || eleicao == 2 || eleicao == 3 || eleicao == 4) {
+				System.out.println("Você votou no candidato");
+			} else if (eleicao == 5){
+				System.out.println("Voto Nulo");
+			} else if (eleicao == 6){
+				System.out.println("Voto em branco");
+			} else {
+				System.out.println("Voto inválido");
+			}
+		}
+		
+		//4 - Repetição de Frase
+		System.out.println("Qual mensagem você quer ver? ");
+		String texto = scanner.next();
+		
+		System.out.println("Quantas vezes você quer ver a mensagem? ");
+		int escolha = scanner.nextInt();
+			
+			for(int escolha = 1; escolha <= 1; escolha++) {
+				System.out.println(texto);
+			}
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

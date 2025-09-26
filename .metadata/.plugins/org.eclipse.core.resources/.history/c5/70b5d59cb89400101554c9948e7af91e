@@ -1,0 +1,27 @@
+package PrimeiroProjeto;
+
+public class lista12 {
+
+	public static void main(String[] args) {
+		
+		//1 - Contador:
+				int numero = 1;
+				do {
+					System.out.println(numero);
+					numero++;
+				} while (numero <= 30);
+				System.out.println("-------------------------");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

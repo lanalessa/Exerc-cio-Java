@@ -1,0 +1,80 @@
+package PrimeiroProjeto;
+
+import java.util.Scanner;
+
+public class lista12 {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner scanner = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
+		
+		
+		//1 - Contador:
+				int numero = 1;
+				do {
+					System.out.println(numero);
+					numero++;
+				} while (numero <= 30);
+				
+				System.out.println("-------------------------");
+		
+		//2 - Adivinhação de número:
+				int num;
+				do {
+					System.out.println("Qual o número? ");
+					num = scanner.nextInt();
+					} while(num != 5);
+				System.out.println("Acertou o numero! ");
+				
+				System.out.println("-------------------");
+		
+		//3 - Verificação de peso na mala:
+			
+	
+				
+		//4 - Verificar quantidade de páginas lidas na semana:
+				
+				int dias = 1; 
+				int totalPag = 0;
+				
+				do {
+					System.out.println("Quantos páginas você leu hoje? ");
+					int leu = scanner.nextInt();
+							totalPag = totalPag + leu; 
+					dias++;//+1
+				} while (dias <= 7);
+				System.out.println("Você leu: " + totalPag + " páginas na semana");
+				
+		//5 - Testar código de acesso:
+				
+				int codigo;
+				int volta = 1 ;
+				
+				do {
+					System.out.println("Qual é o código?");
+					codigo= scanner.nextInt();
+					 if(codigo != 789){
+						System.out.println("Errado! Tente novamente.");
+					} else {
+						System.out.println("Acertou o código!");
+					} volta++;//+1
+				} while (volta);
+				
+		//6 - Verificar nível de combustivel:
+				
+		//7 - Contar Kilômetros Percorridos:
+				
+	
+				
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

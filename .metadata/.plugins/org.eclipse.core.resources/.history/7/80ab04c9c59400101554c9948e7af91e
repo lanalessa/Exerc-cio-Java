@@ -1,0 +1,35 @@
+package PrimeiroProjeto;
+
+import java.util.Scanner;
+
+public class Listaa13 {
+
+	public static void main(String[] args) {
+
+
+		Scanner scanner = new Scanner(System.in);
+		
+		//1 - Contador:
+		for(int cont = 10; cont <= 30; cont++) {
+			System.out.println(cont);
+		}
+		
+		System.out.println("-------");
+		
+		//2 - Classificação de Idades:
+		int idade;
+		for(int cont = 1; cont <= 10; cont++) {
+			System.out.println("Informe sua idade: ");
+			idade = scanner.nextInt();
+			
+			if (idade < 18) {
+				System.out.println("Maior de idade");
+			} else {
+				System.out.println("Menor de idade");
+			} 
+		}
+
+
+	}
+
+}
